@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnMult"
+        android:layout_width="74dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="352dp"
+        android:background="#FFFFFF"
+        android:drawableBottom="@drawable/mult"
+        android:onClick="onClick"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnSoma"
+        android:layout_width="74dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="256dp"
+        android:background="#FFFFFF"
+        android:drawableBottom="@drawable/mais"
+        android:onClick="onClick"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnDiv"
+        android:layout_width="74dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="224dp"
+        android:layout_marginTop="352dp"
+        android:background="#FFFFFF"
+        android:drawableBottom="@drawable/divisao"
+        android:onClick="onClick"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnSub"
+        android:layout_width="74dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="224dp"
+        android:layout_marginTop="256dp"
+        android:background="#FFFFFF"
+        android:drawableBottom="@drawable/sub"
+        android:onClick="onClick"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtToast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="192dp"
+        android:layout_marginTop="156dp"
+        android:fontFamily="casual"
+        android:text="Toast"
+        android:textColor="#D11717"
+        android:textSize="60sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtCalc"
+        android:layout_width="wrap_content"
+        android:layout_height="83dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="156dp"
+        android:fontFamily="casual"
+        android:text="Calc"
+        android:textColor="#3F9742"
+        android:textSize="60sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
